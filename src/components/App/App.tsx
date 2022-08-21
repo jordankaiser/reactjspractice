@@ -1,5 +1,6 @@
 import './App.css';
-import { Validation01 } from '../Validation01/Validation01';
+import { ClickHandling } from '../ClickHandling/ClickHandling';
+import { ObjectFunction } from '../ObjectFunction/ObjectFunction';
 
 function App() {
   const handleArrowClick = (event: object, foo: string): void => {
@@ -19,8 +20,15 @@ function App() {
       <div className="container">
         <button onClick={handleClick}>arrow function click</button>
       </div>
+
+      {/* Click handling practice */}
       <div className="container">
-        <Validation01 />
+        <ClickHandling />
+      </div>
+      
+      {/* Function object param practice */}
+      <div className="container">
+        <ObjectFunction />
       </div>
     </div>
   );

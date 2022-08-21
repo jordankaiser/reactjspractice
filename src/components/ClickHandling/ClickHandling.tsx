@@ -1,4 +1,4 @@
-function Validation01() {
+function ClickHandling() {
 
   const handleClick = (event: object): void => {
     console.log('clicked', event)
@@ -11,4 +11,4 @@ function Validation01() {
   );
 }
 
-export { Validation01 };
+export { ClickHandling };
