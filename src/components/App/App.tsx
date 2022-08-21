@@ -1,5 +1,5 @@
 import './App.css';
-import { Validation01 } from '../Validation01/Validation01.tsx';
+import { Validation01 } from '../Validation01/Validation01';
 
 function App() {
   const handleArrowClick = (event: object, foo: string): void => {

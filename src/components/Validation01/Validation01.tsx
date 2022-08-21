@@ -1,7 +1,7 @@
 function Validation01() {
 
-  const handleClick = () => {
-    console.log('clicked')
+  const handleClick = (event: object): void => {
+    console.log('clicked', event)
   };
 
   return (
