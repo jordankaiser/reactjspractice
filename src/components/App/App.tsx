@@ -1,12 +1,13 @@
 import './App.css';
+import { Validation01 } from '../Validation01/Validation01.tsx';
 
 function App() {
-  const handleArrowClick = (event, foo) => {
+  const handleArrowClick = (event: object, foo: string): void => {
     console.log('handleArrowClick');
     console.log(event);
     console.log(foo);
   }
-  const handleClick = (event) => {
+  const handleClick = (event: object): void => {
     console.log('handleClick');
     console.log(event);
   }
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="container">
         <button onClick={handleClick}>arrow function click</button>
+      </div>
+      <div className="container">
+        <Validation01 />
       </div>
     </div>
   );
